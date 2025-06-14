@@ -1,0 +1,693 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>✺ CAPCUT PRO 𝖃 𝕲𝕽𝕰𝕰𝕹𝕬</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="1df27065-b079-8091-8162-c9faefcd21fc" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1515387784663-e2e29a23f69e?ixlib=rb-4.1.0&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;w=3600" style="object-position:center 50%"/><h1 class="page-title"><strong>✺ </strong>CAPCUT PRO 𝖃 𝕲𝕽𝕰𝕰𝕹𝕬</h1><p class="page-description"></p></header><div class="page-body"><h3 id="1f527065-b079-80cc-9330-c7a2aacc11c5" class=""><strong>✺ </strong><mark class="highlight-default_background"><strong>STOK LIBRARY. </strong></mark><mark class="highlight-gray"><mark class="highlight-default_background">Daftar Premium </mark></mark><mark class="highlight-gray">lainnya klik disini →</mark><mark class="highlight-default"> </mark><mark class="highlight-default"><a href="https://www.notion.so/LIST-PREMIUM-2025-20b27065b079808794ddfea848b470dd?pvs=21">LIST-25</a></mark></h3><hr id="21227065-b079-8095-b49a-cb064e9578c4"/><p id="21227065-b079-8038-99a4-f5b68f7998bf" class="">
+</p><p id="21227065-b079-80d9-b576-d7733ac547d4" class=""><mark class="highlight-gray">Terimakasih untuk 2,000+ Pelanggan Harian. Mulai bulan ini, untuk lanjut tambah durasi private harian dapat harga Rp.1.000/hari. Detailnya disini: </mark><mark class="highlight-gray"><a href="https://www.notion.so/Tambah-durasi-20827065b07980b18b62ff59bca4cf9c?pvs=21"><img class="icon" src="https://www.notion.so/icons/plus_lightgray.svg"/>Tambah durasi</a></mark><mark class="highlight-gray"> </mark></p><p id="21227065-b079-8094-8125-f00ce2b97da8" class="">
+</p><hr id="1fa27065-b079-806a-83b0-d6f4511e10dd"/><p id="1f627065-b079-8052-975b-c58815af5a2b" class=""><mark class="highlight-default_background">PRO PRIVATE ACCOUNT | </mark><mark class="highlight-gray"><mark class="highlight-default_background">Paket satu akun khusus buat kamu. Patungan biar lebih murah, bisa dipakai 2-3 temanmu bareng-bareng. </mark></mark><mark class="highlight-gray"><mark class="highlight-default_background"><strong>↓</strong></mark></mark></p><p id="21227065-b079-8046-a86d-c5be22a53ff9" class="">
+</p><div id="1df27065-b079-8131-972b-ed02722e7f6b" class="collection-content"><h4 class="collection-title">CAPCUT PRO Private</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><img src="https://www.notion.so/icons/bookmark_gray.svg" style="width:14px;height:14px;display:block"/></span>PLAN PRIVATE</th><th><span class="icon property-icon"><img src="https://www.notion.so/icons/cash_gray.svg" style="width:14px;height:14px;display:block"/></span> HARGA</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesStatus"><path d="M8.75488 1.02344C8.75488 0.613281 8.41309 0.264648 8.00293 0.264648C7.59277 0.264648 7.25098 0.613281 7.25098 1.02344V3.11523C7.25098 3.51855 7.59277 3.86719 8.00293 3.86719C8.41309 3.86719 8.75488 3.51855 8.75488 3.11523V1.02344ZM3.91504 5.0293C4.20215 5.31641 4.69434 5.32324 4.97461 5.03613C5.26855 4.74902 5.26855 4.25684 4.98145 3.96973L3.53906 2.52051C3.25195 2.2334 2.7666 2.21973 2.47949 2.50684C2.19238 2.79395 2.18555 3.28613 2.47266 3.57324L3.91504 5.0293ZM10.9629 4.01758C10.6826 4.30469 10.6826 4.79688 10.9697 5.08398C11.2568 5.37109 11.749 5.36426 12.0361 5.07715L13.4854 3.62793C13.7725 3.34082 13.7725 2.84863 13.4785 2.55469C13.1982 2.27441 12.7061 2.27441 12.4189 2.56152L10.9629 4.01758ZM15.0234 8.78906C15.4336 8.78906 15.7822 8.44727 15.7822 8.03711C15.7822 7.62695 15.4336 7.28516 15.0234 7.28516H12.9385C12.5283 7.28516 12.1797 7.62695 12.1797 8.03711C12.1797 8.44727 12.5283 8.78906 12.9385 8.78906H15.0234ZM0.975586 7.28516C0.56543 7.28516 0.223633 7.62695 0.223633 8.03711C0.223633 8.44727 0.56543 8.78906 0.975586 8.78906H3.07422C3.48438 8.78906 3.83301 8.44727 3.83301 8.03711C3.83301 7.62695 3.48438 7.28516 3.07422 7.28516H0.975586ZM12.0361 10.9902C11.749 10.71 11.2568 10.71 10.9629 10.9971C10.6826 11.2842 10.6826 11.7764 10.9697 12.0635L12.4258 13.5127C12.7129 13.7998 13.2051 13.793 13.4922 13.5059C13.7793 13.2256 13.7725 12.7266 13.4854 12.4395L12.0361 10.9902ZM2.52051 12.4395C2.22656 12.7266 2.22656 13.2188 2.50684 13.5059C2.79395 13.793 3.28613 13.7998 3.57324 13.5127L5.02246 12.0703C5.31641 11.7832 5.31641 11.291 5.03613 11.0039C4.74902 10.7168 4.25684 10.71 3.96973 10.9971L2.52051 12.4395ZM8.75488 12.9658C8.75488 12.5557 8.41309 12.207 8.00293 12.207C7.59277 12.207 7.25098 12.5557 7.25098 12.9658V15.0576C7.25098 15.4609 7.59277 15.8096 8.00293 15.8096C8.41309 15.8096 8.75488 15.4609 8.75488 15.0576V12.9658Z"></path></svg></span>STOK</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesSelect"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM7.62402 10.6348C7.79492 10.915 8.20508 10.9287 8.37598 10.6348L10.666 6.73145C10.8574 6.41016 10.7002 6.04102 10.3652 6.04102H5.62793C5.29297 6.04102 5.14941 6.43066 5.32031 6.73145L7.62402 10.6348Z"></path></svg></span>INFO</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesCreatedAt"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM4.54102 8.91211H7.99316C8.30078 8.91211 8.54004 8.67285 8.54004 8.37207V3.8877C8.54004 3.58691 8.30078 3.34766 7.99316 3.34766C7.69238 3.34766 7.45312 3.58691 7.45312 3.8877V7.83203H4.54102C4.2334 7.83203 4.00098 8.06445 4.00098 8.37207C4.00098 8.67285 4.2334 8.91211 4.54102 8.91211Z"></path></svg></span>LAST EDIT.</th></tr></thead><tbody><tr id="1fd27065-b079-800f-b155-d20499a888b4"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/CAPCUT%20PRO%20Private%201df27065b0798131972bed02722e7f6b/3%20Hari%20Pro%20Private%201fd27065b079800fb155d20499a888b4.html">3 Hari Pro Private</a></td><td class="cell-Mj&gt;j">IDR 5.000</td><td class="cell-`q}E"><span class="status-value select-value-color-red"><div class="status-dot status-dot-color-red"></div>HABIS</span></td><td class="cell-ngkq"><span class="selected-value select-value-color-gray">STOK TERBATAS</span></td><td class="cell-XRW["><time>@June 14, 2025 8:22 PM</time></td></tr><tr id="1e427065-b079-80e4-92c7-da4ac187c7c7"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/CAPCUT%20PRO%20Private%201df27065b0798131972bed02722e7f6b/5%20Hari%20Pro%20Private%201e427065b07980e492c7da4ac187c7c7.html">5 Hari Pro Private</a></td><td class="cell-Mj&gt;j">IDR 6.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-ngkq"><span class="selected-value select-value-color-red">OBRAL TERLARIS</span></td><td class="cell-XRW["><time>@June 14, 2025 8:23 PM</time></td></tr><tr id="1e227065-b079-8075-b892-e35daaf93cbe"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/CAPCUT%20PRO%20Private%201df27065b0798131972bed02722e7f6b/6%207%20Hari%20Pro%20Private%201e227065b0798075b892e35daaf93cbe.html">6/7 Hari Pro Private</a></td><td class="cell-Mj&gt;j">IDR 9.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-ngkq"><span class="selected-value select-value-color-green">TERLARIS</span></td><td class="cell-XRW["><time>@June 14, 2025 12:38 PM</time></td></tr><tr id="21127065-b079-801f-ba12-eb98801d24c9"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/CAPCUT%20PRO%20Private%201df27065b0798131972bed02722e7f6b/12%20Hari%20Pro%20Private%2021127065b079801fba12eb98801d24c9.html">12 Hari Pro Private</a></td><td class="cell-Mj&gt;j">IDR 15.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-ngkq"><span class="selected-value select-value-color-gray">STOK TERBATAS</span></td><td class="cell-XRW["><time>@June 14, 2025 8:20 PM</time></td></tr><tr id="1e227065-b079-80f3-993b-c01f9b8b2e22"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/CAPCUT%20PRO%20Private%201df27065b0798131972bed02722e7f6b/30%20Hari%20Pro%20Private%201e227065b07980f3993bc01f9b8b2e22.html">30 Hari Pro Private</a></td><td class="cell-Mj&gt;j">IDR 36.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-ngkq"><span class="selected-value select-value-color-green">TERLARIS</span></td><td class="cell-XRW["><time>@June 14, 2025 8:23 PM</time></td></tr><tr id="1df27065-b079-815b-a5ed-fd488c25b599"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/CAPCUT%20PRO%20Private%201df27065b0798131972bed02722e7f6b/180%20Hari%20Pro%20Private%201df27065b079815ba5edfd488c25b599.html">180 Hari Pro Private</a></td><td class="cell-Mj&gt;j">IDR 190.000</td><td class="cell-`q}E"><span class="status-value select-value-color-gray"><div class="status-dot status-dot-color-gray"></div>KOSONG</span></td><td class="cell-ngkq"></td><td class="cell-XRW["><time>@June 14, 2025 12:36 PM</time></td></tr></tbody></table><br/><br/></div><p id="21227065-b079-809f-b799-d69e3cb9ad85" class="">
+</p><p id="20927065-b079-80c6-88d7-d97540aad8de" class=""><mark class="highlight-gray">━━ Mohon klik open/buka untuk melihat deskripsi produk, geser untuk melihat stok.</mark></p><p id="20b27065-b079-8086-a02f-f608a137cbb8" class="">
+</p><hr id="20b27065-b079-807e-953b-db1649633c6c"/><p id="1df27065-b079-80b2-b626-e65eac34b7a5" class=""><mark class="highlight-default"><mark class="highlight-default_background">PRO SHARING ACCOUNT</mark></mark><mark class="highlight-default"><mark class="highlight-default_background"><strong> </strong></mark></mark><mark class="highlight-default"><mark class="highlight-default_background"> | </mark></mark><mark class="highlight-gray"><mark class="highlight-default_background">Paket hemat, satu perangkat. Tidak perlu khawatir keluar sendiri atau gak bisa masuk. </mark></mark><mark class="highlight-gray"><mark class="highlight-default_background"><strong>↓</strong></mark></mark></p><p id="21227065-b079-804a-a3d6-e99cd5e47d26" class="">
+</p><div id="1df27065-b079-800b-8fe4-dbdb62b43bc4" class="collection-content"><h4 class="collection-title">Paket Sharing</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><img src="https://www.notion.so/icons/bookmark_gray.svg" style="width:14px;height:14px;display:block"/></span>PLAN SHARING</th><th><span class="icon property-icon"><img src="https://www.notion.so/icons/tag_gray.svg" style="width:14px;height:14px;display:block"/></span>HARGA</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesStatus"><path d="M8.75488 1.02344C8.75488 0.613281 8.41309 0.264648 8.00293 0.264648C7.59277 0.264648 7.25098 0.613281 7.25098 1.02344V3.11523C7.25098 3.51855 7.59277 3.86719 8.00293 3.86719C8.41309 3.86719 8.75488 3.51855 8.75488 3.11523V1.02344ZM3.91504 5.0293C4.20215 5.31641 4.69434 5.32324 4.97461 5.03613C5.26855 4.74902 5.26855 4.25684 4.98145 3.96973L3.53906 2.52051C3.25195 2.2334 2.7666 2.21973 2.47949 2.50684C2.19238 2.79395 2.18555 3.28613 2.47266 3.57324L3.91504 5.0293ZM10.9629 4.01758C10.6826 4.30469 10.6826 4.79688 10.9697 5.08398C11.2568 5.37109 11.749 5.36426 12.0361 5.07715L13.4854 3.62793C13.7725 3.34082 13.7725 2.84863 13.4785 2.55469C13.1982 2.27441 12.7061 2.27441 12.4189 2.56152L10.9629 4.01758ZM15.0234 8.78906C15.4336 8.78906 15.7822 8.44727 15.7822 8.03711C15.7822 7.62695 15.4336 7.28516 15.0234 7.28516H12.9385C12.5283 7.28516 12.1797 7.62695 12.1797 8.03711C12.1797 8.44727 12.5283 8.78906 12.9385 8.78906H15.0234ZM0.975586 7.28516C0.56543 7.28516 0.223633 7.62695 0.223633 8.03711C0.223633 8.44727 0.56543 8.78906 0.975586 8.78906H3.07422C3.48438 8.78906 3.83301 8.44727 3.83301 8.03711C3.83301 7.62695 3.48438 7.28516 3.07422 7.28516H0.975586ZM12.0361 10.9902C11.749 10.71 11.2568 10.71 10.9629 10.9971C10.6826 11.2842 10.6826 11.7764 10.9697 12.0635L12.4258 13.5127C12.7129 13.7998 13.2051 13.793 13.4922 13.5059C13.7793 13.2256 13.7725 12.7266 13.4854 12.4395L12.0361 10.9902ZM2.52051 12.4395C2.22656 12.7266 2.22656 13.2188 2.50684 13.5059C2.79395 13.793 3.28613 13.7998 3.57324 13.5127L5.02246 12.0703C5.31641 11.7832 5.31641 11.291 5.03613 11.0039C4.74902 10.7168 4.25684 10.71 3.96973 10.9971L2.52051 12.4395ZM8.75488 12.9658C8.75488 12.5557 8.41309 12.207 8.00293 12.207C7.59277 12.207 7.25098 12.5557 7.25098 12.9658V15.0576C7.25098 15.4609 7.59277 15.8096 8.00293 15.8096C8.41309 15.8096 8.75488 15.4609 8.75488 15.0576V12.9658Z"></path></svg></span>STOK</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesSelect"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM7.62402 10.6348C7.79492 10.915 8.20508 10.9287 8.37598 10.6348L10.666 6.73145C10.8574 6.41016 10.7002 6.04102 10.3652 6.04102H5.62793C5.29297 6.04102 5.14941 6.43066 5.32031 6.73145L7.62402 10.6348Z"></path></svg></span>INFO</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesCreatedAt"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM4.54102 8.91211H7.99316C8.30078 8.91211 8.54004 8.67285 8.54004 8.37207V3.8877C8.54004 3.58691 8.30078 3.34766 7.99316 3.34766C7.69238 3.34766 7.45312 3.58691 7.45312 3.8877V7.83203H4.54102C4.2334 7.83203 4.00098 8.06445 4.00098 8.37207C4.00098 8.67285 4.2334 8.91211 4.54102 8.91211Z"></path></svg></span>LAST EDIT.</th></tr></thead><tbody><tr id="1fa27065-b079-800d-abb4-c20b87127031"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/Paket%20Sharing%201df27065b079800b8fe4dbdb62b43bc4/6%207%20Hari%20Sharing%201fa27065b079800dabb4c20b87127031.html">6/7 Hari Sharing</a></td><td class="cell-Mj&gt;j">IDR 5.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-rNb_"><span class="selected-value select-value-color-green">TERLARIS</span></td><td class="cell-tehE"><time>@June 14, 2025 12:49 PM</time></td></tr><tr id="1f627065-b079-8097-ba04-fe1f50d941e4"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/Paket%20Sharing%201df27065b079800b8fe4dbdb62b43bc4/6%207%20HP%20+%20Laptop%201f627065b0798097ba04fe1f50d941e4.html">6/7 HP + Laptop</a></td><td class="cell-Mj&gt;j">IDR 7.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-rNb_"><span class="selected-value select-value-color-green">TERLARIS</span></td><td class="cell-tehE"><time>@June 14, 2025 12:48 PM</time></td></tr><tr id="1e227065-b079-80ab-93f6-fc6565d8d09c"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/Paket%20Sharing%201df27065b079800b8fe4dbdb62b43bc4/28%2030%20Sharing%201e227065b07980ab93f6fc6565d8d09c.html">28/30 Sharing</a></td><td class="cell-Mj&gt;j">IDR 18.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-rNb_"><span class="selected-value select-value-color-yellow">PROMO HARI INI</span></td><td class="cell-tehE"><time>@June 14, 2025 12:48 PM</time></td></tr><tr id="1f627065-b079-80fe-9511-e5a49465608a"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/Paket%20Sharing%201df27065b079800b8fe4dbdb62b43bc4/28%2030%20HP%20+%20Laptop%201f627065b07980fe9511e5a49465608a.html">28/30 HP + Laptop</a></td><td class="cell-Mj&gt;j">IDR 23.000</td><td class="cell-`q}E"><span class="status-value select-value-color-green"><div class="status-dot status-dot-color-green"></div>READY</span></td><td class="cell-rNb_"><span class="selected-value select-value-color-green">TERLARIS</span></td><td class="cell-tehE"><time>@June 14, 2025 12:48 PM</time></td></tr><tr id="1df27065-b079-811e-8173-e047c3d817e1"><td class="cell-title"><a href="%E2%9C%BA%20CAPCUT%20PRO%20%F0%9D%96%83%20%F0%9D%95%B2%F0%9D%95%BD%F0%9D%95%B0%F0%9D%95%B0%F0%9D%95%B9%F0%9D%95%AC%201df27065b07980918162c9faefcd21fc/Paket%20Sharing%201df27065b079800b8fe4dbdb62b43bc4/180%20Days%20Sharing%201df27065b079811e8173e047c3d817e1.html">180 Days Sharing</a></td><td class="cell-Mj&gt;j">IDR 125.000</td><td class="cell-`q}E"><span class="status-value select-value-color-gray"><div class="status-dot status-dot-color-gray"></div>KOSONG</span></td><td class="cell-rNb_"></td><td class="cell-tehE"><time>@June 14, 2025 12:34 PM</time></td></tr></tbody></table><br/><br/></div><h1 id="1f627065-b079-801e-b705-d56e97d10766" class=""><strong>✺ N𝕺TE</strong></h1><p id="21227065-b079-8018-9148-de06a8e1e3fe" class=""><strong>Akun CapCut Pro – Siap Pakai!</strong></p><p id="21227065-b079-80ae-9631-d6381ba1f018" class=""><mark class="highlight-gray">Langsung login atau beralih akun, tanpa ribet.</mark></p><p id="21227065-b079-801d-8c70-d27e00bb713f" class=""><mark class="highlight-gray">Setelah login dengan akun versi Pro, semua proyek/editan kamu otomatis jadi versi Pro.</mark></p><p id="21227065-b079-80be-8e65-ef42260b60eb" class=""><mark class="highlight-gray">Proyek tetap aman meskipun berganti akun.</mark></p><p id="21227065-b079-8091-8b03-dea6fedd01b5" class=""><mark class="highlight-gray">Mendukung semua perangkat.</mark></p><p id="21227065-b079-8014-930c-f3462b6f82a1" class=""><mark class="highlight-gray">Sudah melayani kantor-kantor profesional.</mark></p><hr id="21227065-b079-8046-b52b-e79efbfbd5ad"/><p id="21227065-b079-8099-91ef-d254169848e3" class="">
+</p><p id="1f627065-b079-80ac-967b-ebb0ebbc6707" class=""><a href="https://www.notion.so/F-A-Q-1f627065b07980a299dcfc8b13402ddc?pvs=21">✺ F.A.Q </a> </p><p id="1f627065-b079-80c5-a4e8-c6be7623a6ad" class=""><a href="https://www.notion.so/How-to-login-1f527065b07980aa8fb4e2d0c3857d5b?pvs=21">✺ How to login</a> </p><p id="1f627065-b079-8008-9d3f-c5e2226b6bdd" class=""><a href="https://www.notion.so/Rules-of-sharing-account-1f627065b07980b79c5ed64da56586a0?pvs=21">✺ Rules of sharing account</a> </p><h2 id="1e127065-b079-8069-8d76-f7e8ab7ba588" class=""><strong>✺ </strong>Quick Buttons</h2><hr id="1df27065-b079-8154-8406-dfbf66f34c80"/><p id="1e227065-b079-801d-8457-c1d654990c69" class=""><a href="http://wa.me/6281944091118">WhatsApp &amp; Support</a></p><p id="1f127065-b079-80de-b64e-d5c023ea1b89" class=""><a href="https://x.com/search?q=dikalularifin&amp;src=typed_query&amp;f=live">Testimoni on X</a></p><p id="1e827065-b079-80ba-9ef0-dd22b4aab757" class=""><a href="https://www.notion.so/Payment-1f527065b0798089a233ef177dbe4b83?pvs=21">Payment.</a></p><p id="20927065-b079-809b-a43d-d5af1b949049" class="">
+</p><hr id="20927065-b079-8009-bbd3-fa5b18877dac"/><p id="20927065-b079-803f-9dfa-da90f88fdab1" class="">
+</p><p id="20827065-b079-80a8-9115-d8aa66e43767" class=""><mark class="highlight-default_background"><strong>✺ </strong></mark><mark class="highlight-default_background">OPEN 24 HOURS FOR ORDER &amp; SUPPORT | </mark><mark class="highlight-gray">slow respon at 16.30 - 19.30 WIB + 00.00 - 07.00 WIB</mark></p><p id="1f927065-b079-8036-9da3-c730bd1b5d23" class="">by <a href="https://x.com/dikalularifin">@greenawatterson,</a> thank you.</p><p id="1fa27065-b079-800a-bc34-fa0b790d325a" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
